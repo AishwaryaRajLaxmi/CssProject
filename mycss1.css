@@ -1,0 +1,161 @@
+/*variable creation for particular colour*/
+:root {
+  --orng: rgb(244, 140, 21);
+  --wt: white;
+}
+
+p
+{padding:20px;
+    text-align:justify;
+}
+/*Universal selector*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: var(--orng);
+}
+
+img {
+  width: 80%;
+  }
+
+  .skill
+  {padding:20px; 
+    background-color: palevioletred;
+    text-align: justify;
+    color:white;
+  }
+
+  .Service
+  {padding:20px;  
+    background-color: purple;
+    text-align:justify;
+    color:white;
+  }
+
+  .contact
+  {
+    text-align: justify;
+    background-color: rgb(13, 143, 230);
+    margin:0;
+    padding:0;
+  }
+
+.navbar {
+  height: 60px;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: row;
+  /*It provides space between each of them*/
+  justify-content: space-between;
+  /*place item in center verticalliy*/
+  align-items: center;
+}
+
+.Main {
+  background-color: deeppink;
+}
+
+.divclass {
+  height: 60px;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav1 .navli {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  flex-direction: row;
+}
+
+.nav1 .navli li {
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav1 .navli li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+
+.nav1 .subject {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.navbar .navlist {
+  display: flex;
+  /*flex-direction:row;*/
+  align-items: center;
+  list-style: none;
+}
+
+.navbar .navlist li {
+  padding: 10px;
+}
+
+.navbar .navlist li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--wt);
+}
+
+.navbar .navlist li button {
+  border: none;
+  padding: 10px;
+  color: var(--orng);
+  background-color: var(--wt);
+  border-radius: 3px;
+}
+
+.navbar .logo {
+  color: var(--wt);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.about {
+  display: flex;
+  gap: 20px;
+  padding: 20px 50px;
+}
+
+.about .left {
+  flex-basis: 50%;
+}
+
+.Myself {
+  display: flex;
+  gap: 20 px;
+  padding: 20px 50 px;
+}
+
+.about .right {
+  flex-basis: 50%;
+}
+
+.Myself .right2 {
+  flex-basis: 50%;
+}
+
+.Myself .left2 {
+  flex-basis: 50%;
+}
